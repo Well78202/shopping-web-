@@ -1,0 +1,1070 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #d1cbcb06;
+    ;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    }  
+.navbar-h1 {
+    color: #fe8a00;
+    }
+.shop {
+    color: #f61b5a;
+    }    
+.navbar-header{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 10px;
+    }
+.navbar-header-fa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.user{
+    left: 20.83%;
+right: 20.83%;
+top: 20.83%;
+bottom: 16.67%;
+}
+.user{
+    margin-top: 19px;
+    font-size: 25px;
+
+}
+.cont{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    color: white;
+    background: #FE8A00;
+    width: 100%;
+    height: 363PX;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    background-size:80% ;
+}
+.Products{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    margin-left: 40%;
+    justify-content: center;
+    height: 59px;
+    width: 340px;
+    text-align: center;
+}
+.container{
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 7PX;
+
+    
+}
+.gana{
+    word-spacing: 170px;
+}
+.love {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    color: grey;
+  }
+  .love i:hover {
+    cursor: pointer;
+  }
+  .hart{
+    display:flex;
+    margin-left: 3%;
+  }
+  .hart img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+.hart .love{
+    position: absolute;
+    /* top: 80%; */
+    right: 77%;
+    font-size: 20px;
+    color: grey;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+.love.active {
+    color: #f61b5a;
+    }
+.love2 {
+        background: transparent;
+        border: none;
+        font-size: 1rem;
+        outline: none;
+        color: grey;
+      }
+.love2 i:hover {
+        cursor: pointer;
+      }
+.hart2{
+        display:flex;
+        margin-left: 3%;
+      }
+.hart2 img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+      }
+.hart2 .love2{
+        position: absolute;
+        /* top: 80%; */
+        right: 52%;
+        font-size: 20px;
+        color: grey;
+        padding: 12px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+    
+    }
+    .love2.active {
+        color: #f61b5a;
+        }
+.love3 {
+            background: transparent;
+            border: none;
+            font-size: 1rem;
+            outline: none;
+            color: grey;
+          }
+    .love3 i:hover {
+            cursor: pointer;
+          }
+    .hart3{
+            display:flex;
+            margin-left: 3%;
+          }
+    .hart3 img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+    .hart3 .love3{
+            position: absolute;
+            /* top: 80%; */
+            right: 27%;
+            font-size: 20px;
+            color: grey;
+            padding: 12px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        
+        }
+        .love3.active {
+            color: #f61b5a;
+            }
+            .love4 {
+                background: transparent;
+                border: none;
+                font-size: 1rem;
+                outline: none;
+                color: grey;
+              }
+        .love4 i:hover {
+                cursor: pointer;
+              }
+        .hart4{
+                display:flex;
+                margin-left: 3%;
+              }
+        .hart4 img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+              }
+        .hart4 .love4{
+                position: absolute;
+                /* top: 80%; */
+                right: 3%;
+                font-size: 20px;
+                color: grey;
+                padding: 12px;
+                border-radius: 20px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+            
+            }
+            .love4.active {
+                color: #f61b5a;
+                }
+                .love5 {
+                    background: transparent;
+                    border: none;
+                    font-size: 1rem;
+                    outline: none;
+                    color: grey;
+                  }
+            .love5 i:hover {
+                    cursor: pointer;
+                  }
+            .hart5{
+                    display:flex;
+                    margin-left: 3%;
+                  }
+            .hart5 img{
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                  }
+            .hart5 .love5{
+                    position: absolute;
+                    /* top: 80%; */
+                    right: 77%;
+                    font-size: 20px;
+                    color: grey;
+                    padding: 12px;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                
+                }
+                .love5.active {
+                    color: #f61b5a;
+                    }
+                    .love6 {
+                        background: transparent;
+                        border: none;
+                        font-size: 1rem;
+                        outline: none;
+                        color: grey;
+                      }
+                .love6 i:hover {
+                        cursor: pointer;
+                      }
+                .hart6{
+                        display:flex;
+                        margin-left: 3%;
+                      }
+                .hart6 img{
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                      }
+                .hart6 .love6{
+                        position: absolute;
+                        /* top: 80%; */
+                        right: 52%;
+                        font-size: 20px;
+                        color: grey;
+                        padding: 12px;
+                        border-radius: 20px;
+                        background-color: #FFFFFF;
+                        cursor: pointer;
+                    
+                    }
+                    .love6.active {
+                        color: #f61b5a;
+                        }
+                        .love7 {
+                            background: transparent;
+                            border: none;
+                            font-size: 1rem;
+                            outline: none;
+                            color: grey;
+                          }
+                    .love7 i:hover {
+                            cursor: pointer;
+                          }
+                    .hart7{
+                            display:flex;
+                            margin-left: 3%;
+                          }
+                    .hart7 img{
+                            width: 100%;
+                            height: 100%;
+                            cursor: pointer;
+                          }
+                    .hart7 .love7{
+                            position: absolute;
+                            /* top: 80%; */
+                            right: 27%;
+                            font-size: 20px;
+                            color: grey;
+                            padding: 12px;
+                            border-radius: 20px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        
+                        }
+                        .love7.active {
+                            color: #f61b5a;
+                            }
+                            .love8 {
+                                background: transparent;
+                                border: none;
+                                font-size: 1rem;
+                                outline: none;
+                                color: grey;
+                              }
+                        .love8 i:hover {
+                                cursor: pointer;
+                              }
+                        .hart8{
+                                display:flex;
+                                margin-left: 3%;
+                              }
+                        .hart8 img{
+                                width: 100%;
+                                height: 100%;
+                                cursor: pointer;
+                              }
+                        .hart8 .love8{
+                                position: absolute;
+                                /* top: 80%; */
+                                right: 2%;
+                                font-size: 20px;
+                                color: grey;
+                                padding: 12px;
+                                border-radius: 20px;
+                                background-color: #FFFFFF;
+                                cursor: pointer;
+                            
+                            }
+                            .love8.active {
+                                color: #f61b5a;
+                                }
+.see{
+    margin-top: 20PX;
+    display: inline-block;
+    padding: 10PX 30PX;
+    border: 1PX solid #FFFFFF;
+    font-size: 16PX;
+    cursor: pointer;
+    width: 108px;
+    color: #F61B5A;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+
+}
+@media screen and (max-width:767PX) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Outfit', sans-serif;
+        background-color: #d1cbcb06;
+        ;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        }  
+    .navbar-h1 {
+        color: #fe8a00;
+        }
+    .shop {
+        color: #f61b5a;
+        }    
+    .navbar-header{
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: 10px;
+        }
+        .navbar-header-fa{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .cont{
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+            color: white;
+            background: #FE8A00;
+            background-image: url(icons.png);
+            background-size:80% ;
+        }
+        
+        .Products{
+            font-family: 'Outfit', sans-serif;
+            margin-left: 40%;
+            height: 59px;
+            width: 20%;
+            text-align: center;
+        }
+        .container{
+            font-family: 'Outfit', sans-serif;
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            object-fit: cover ;
+        }
+        .see{
+            margin-top: 20PX;
+            display: inline-block;
+            padding: 10PX 30PX;
+            border: 1PX solid #FFFFFF;
+            font-size: 16PX;
+            cursor: pointer;
+            width: 108px;
+            color: #F61B5A;
+            border-radius: 40px;
+            text-decoration: none;
+            background-color: #FFFFFF;
+        
+        }
+        .love {
+            background: transparent;
+            border: none;
+            font-size: 1rem;
+            outline: none;
+            color: grey;
+          }
+          .love i:hover {
+            cursor: pointer;
+          }
+          .hart{
+            display:flex;
+            margin-left: 3%;
+          }
+          .hart img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+        .hart .love{
+            position: absolute;
+            /* top: 80%; */
+            right: 53%;
+            font-size: 20px;
+            color: grey;
+            padding: 12px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        
+        }
+        .love.active {
+            color: #f61b5a;
+            }
+        .love2 {
+                background: transparent;
+                border: none;
+                font-size: 1rem;
+                outline: none;
+                color: grey;
+              }
+        .love2 i:hover {
+                cursor: pointer;
+              }
+        .hart2{
+                display:flex;
+                margin-left: 3%;
+              }
+        .hart2 img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+              }
+        .hart2 .love2{
+                position: absolute;
+                /* top: 80%; */
+                right: 8%;
+                font-size: 20px;
+                color: grey;
+                padding: 12px;
+                border-radius: 20px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+            
+            }
+            .love2.active {
+                color: #f61b5a;
+                }
+        .love3 {
+                    background: transparent;
+                    border: none;
+                    font-size: 1rem;
+                    outline: none;
+                    color: grey;
+                  }
+            .love3 i:hover {
+                    cursor: pointer;
+                  }
+            .hart3{
+                    display:flex;
+                    margin-left: 3%;
+                  }
+            .hart3 img{
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                  }
+            .hart3 .love3{
+                    position: absolute;
+                    /* top: 80%; */
+                    right: 53%;
+                    font-size: 20px;
+                    color: grey;
+                    padding: 12px;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                
+                }
+                .love3.active {
+                    color: #f61b5a;
+                    }
+                    .love4 {
+                        background: transparent;
+                        border: none;
+                        font-size: 1rem;
+                        outline: none;
+                        color: grey;
+                      }
+                .love4 i:hover {
+                        cursor: pointer;
+                      }
+                .hart4{
+                        display:flex;
+                        margin-left: 3%;
+                      }
+                .hart4 img{
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                      }
+                .hart4 .love4{
+                        position: absolute;
+                        /* top: 80%; */
+                        right: 8%;
+                        font-size: 20px;
+                        color: grey;
+                        padding: 12px;
+                        border-radius: 20px;
+                        background-color: #FFFFFF;
+                        cursor: pointer;
+                    
+                    }
+                    .love4.active {
+                        color: #f61b5a;
+                        }
+                        .love5 {
+                            background: transparent;
+                            border: none;
+                            font-size: 1rem;
+                            outline: none;
+                            color: grey;
+                          }
+                    .love5 i:hover {
+                            cursor: pointer;
+                          }
+                    .hart5{
+                            display:flex;
+                            margin-left: 3%;
+                          }
+                    .hart5 img{
+                            width: 100%;
+                            height: 100%;
+                            cursor: pointer;
+                          }
+                    .hart5 .love5{
+                            position: absolute;
+                            /* top: 80%; */
+                            right: 53%;
+                            font-size: 20px;
+                            color: grey;
+                            padding: 12px;
+                            border-radius: 20px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        
+                        }
+                        .love5.active {
+                            color: #f61b5a;
+                            }
+                            .love6 {
+                                background: transparent;
+                                border: none;
+                                font-size: 1rem;
+                                outline: none;
+                                color: grey;
+                              }
+                        .love6 i:hover {
+                                cursor: pointer;
+                              }
+                        .hart6{
+                                display:flex;
+                                margin-left: 3%;
+                              }
+                        .hart6 img{
+                                width: 100%;
+                                height: 100%;
+                                cursor: pointer;
+                              }
+                        .hart6 .love6{
+                                position: absolute;
+                                /* top: 80%; */
+                                right: 8%;
+                                font-size: 20px;
+                                color: grey;
+                                padding: 12px;
+                                border-radius: 20px;
+                                background-color: #FFFFFF;
+                                cursor: pointer;
+                            
+                            }
+                            .love6.active {
+                                color: #f61b5a;
+                                }
+                                .love7 {
+                                    background: transparent;
+                                    border: none;
+                                    font-size: 1rem;
+                                    outline: none;
+                                    color: grey;
+                                  }
+                            .love7 i:hover {
+                                    cursor: pointer;
+                                  }
+                            .hart7{
+                                    display:flex;
+                                    margin-left: 3%;
+                                  }
+                            .hart7 img{
+                                    width: 100%;
+                                    height: 100%;
+                                    cursor: pointer;
+                                  }
+                            .hart7 .love7{
+                                    position: absolute;
+                                    /* top: 80%; */
+                                    right: 53%;
+                                    font-size: 20px;
+                                    color: grey;
+                                    padding: 12px;
+                                    border-radius: 20px;
+                                    background-color: #FFFFFF;
+                                    cursor: pointer;
+                                
+                                }
+                                .love7.active {
+                                    color: #f61b5a;
+                                    }
+                                    .love8 {
+                                        background: transparent;
+                                        border: none;
+                                        font-size: 1rem;
+                                        outline: none;
+                                        color: grey;
+                                      }
+                                .love8 i:hover {
+                                        cursor: pointer;
+                                      }
+                                .hart8{
+                                        display:flex;
+                                        margin-left: 3%;
+                                      }
+                                .hart8 img{
+                                        width: 100%;
+                                        height: 100%;
+                                        cursor: pointer;
+                                      }
+                                .hart8 .love8{
+                                        position: absolute;
+                                        /* top: 80%; */
+                                        right: 8%;
+                                        font-size: 20px;
+                                        color: grey;
+                                        padding: 12px;
+                                        border-radius: 20px;
+                                        background-color: #FFFFFF;
+                                        cursor: pointer;
+                                    
+                                    }
+                                    .love8.active {
+                                        color: #f61b5a;
+                                        }
+}
+@media screen and (min-width:768PX) and (max-width:1023PX) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Outfit', sans-serif;
+        background-color: #d1cbcb06;
+        ;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        }  
+    .navbar-h1 {
+        color: #fe8a00;
+        }
+    .shop {
+        color: #f61b5a;
+        }    
+    .navbar-header{
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: 10px;
+        }
+        .navbar-header-fa{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .user{
+            left: 20.83%;
+        right: 20.83%;
+        top: 20.83%;
+        bottom: 16.67%;
+        }.cont{
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+            color: white;
+            background: #FE8A00;
+            background-image: url(icons.png);
+            background-size:80% ;
+        }
+        
+        .Products{
+            font-family: 'Outfit', sans-serif;
+            margin-left: 40%;
+            height: 59px;
+            width: 20%;
+            text-align: center;
+        }
+        .container{
+            font-family: 'Outfit', sans-serif;
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+.box{
+  width: 30%;
+}
+.container img{
+    display: flex;
+    width: 100%;
+}
+.love {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: grey;
+}
+.love i:hover {
+  cursor: pointer;
+}
+.hart{
+  display:flex;
+  margin-left: 3%;
+}
+.hart img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.hart .love{
+  position: absolute;
+  /* top: 80%; */
+  right: 69%;
+  font-size: 20px;
+  color: grey;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+
+}
+.love.active {
+  color: #f61b5a;
+  }
+  .love2 {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    color: grey;
+  }
+.love2 i:hover {
+    cursor: pointer;
+  }
+.hart2{
+    display:flex;
+    margin-left: 3%;
+  }
+.hart2 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+.hart2 .love2{
+    position: absolute;
+    /* top: 80%; */
+    right: 37%;
+    font-size: 20px;
+    color: grey;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+.love2.active {
+    color: #f61b5a;
+    }
+.love3 {
+        background: transparent;
+        border: none;
+        font-size: 1rem;
+        outline: none;
+        color: grey;
+      }
+.love3 i:hover {
+        cursor: pointer;
+      }
+.hart3{
+        display:flex;
+        margin-left: 3%;
+      }
+.hart3 img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+      }
+.hart3 .love3{
+        position: absolute;
+        /* top: 80%; */
+        right: 6%;
+        font-size: 20px;
+        color: grey;
+        padding: 12px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+    
+    }
+    .love3.active {
+        color: #f61b5a;
+        }
+        .love4 {
+            background: transparent;
+            border: none;
+            font-size: 1rem;
+            outline: none;
+            color: grey;
+          }
+    .love4 i:hover {
+            cursor: pointer;
+          }
+    .hart4{
+            display:flex;
+            margin-left: 3%;
+          }
+    .hart4 img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+    .hart4 .love4{
+            position: absolute;
+            /* top: 80%; */
+            right: 69%;
+            font-size: 20px;
+            color: grey;
+            padding: 12px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        
+        }
+        .love4.active {
+            color: #f61b5a;
+            }
+            .love5 {
+                background: transparent;
+                border: none;
+                font-size: 1rem;
+                outline: none;
+                color: grey;
+              }
+        .love5 i:hover {
+                cursor: pointer;
+              }
+        .hart5{
+                display:flex;
+                margin-left: 3%;
+              }
+        .hart5 img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+              }
+        .hart5 .love5{
+                position: absolute;
+                /* top: 80%; */
+                right: 37%;
+                font-size: 20px;
+                color: grey;
+                padding: 12px;
+                border-radius: 20px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+            
+            }
+            .love5.active {
+                color: #f61b5a;
+                }
+                .love6 {
+                    background: transparent;
+                    border: none;
+                    font-size: 1rem;
+                    outline: none;
+                    color: grey;
+                  }
+            .love6 i:hover {
+                    cursor: pointer;
+                  }
+            .hart6{
+                    display:flex;
+                    margin-left: 3%;
+                  }
+            .hart6 img{
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                  }
+            .hart6 .love6{
+                    position: absolute;
+                    /* top: 80%; */
+                    right: 6%;
+                    font-size: 20px;
+                    color: grey;
+                    padding: 12px;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                
+                }
+                .love6.active {
+                    color: #f61b5a;
+                    }
+                    .love7 {
+                        background: transparent;
+                        border: none;
+                        font-size: 1rem;
+                        outline: none;
+                        color: grey;
+                      }
+                .love7 i:hover {
+                        cursor: pointer;
+                      }
+                .hart7{
+                        display:flex;
+                        margin-left: 3%;
+                      }
+                .hart7 img{
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                      }
+                .hart7 .love7{
+                        position: absolute;
+                        /* top: 80%; */
+                        right: 64%;
+                        font-size: 20px;
+                        color: grey;
+                        padding: 12px;
+                        border-radius: 20px;
+                        background-color: #FFFFFF;
+                        cursor: pointer;
+                    
+                    }
+                    .love7.active {
+                        color: #f61b5a;
+                        }
+                        .love8 {
+                            background: transparent;
+                            border: none;
+                            font-size: 1rem;
+                            outline: none;
+                            color: grey;
+                          }
+                    .love8 i:hover {
+                            cursor: pointer;
+                          }
+                    .hart8{
+                            display:flex;
+                            margin-left: 3%;
+                          }
+                    .hart8 img{
+                            width: 100%;
+                            height: 100%;
+                            cursor: pointer;
+                          }
+                    .hart8 .love8{
+                            position: absolute;
+                            /* top: 80%; */
+                            right: 32%;
+                            font-size: 20px;
+                            color: grey;
+                            padding: 12px;
+                            border-radius: 20px;
+                            background-color: #FFFFFF;
+                            cursor: pointer;
+                        
+                        }
+                        .love8.active {
+                            color: #f61b5a;
+                            }
+                            .see{
+                              margin-top: 400PX;
+                              /* display: inline-block; */
+                              padding: 10PX 30PX;
+                              display: flex;
+                              border: 1PX solid #FFFFFF;
+                              font-size: 16PX;
+                              cursor: pointer;
+                              width: 108px;
+                              color: #F61B5A;
+                              border-radius: 40px;
+                              text-decoration: none;
+                              text-align: center;
+                              background-color: #FFFFFF;
+                          
+                          }
+}

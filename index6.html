@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Shopping</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar-header">
+            <div class="navbar-header-fa">
+            <img src="css/logo.png" alt="">
+        <h1 class="navbar-h1">Minimal <span class="shop">Shop</span>ping</h1>
+            </div>
+        
+        <div class="user">
+            <i class="fa-solid fa-user"></i>
+    </div>
+    </div>
+    </header>
+    <div class="Details">
+        <img src="css/Rectangle 7.png" alt="image">
+    <div class="content">
+        <span class="new">New!</span> 
+
+        <h3>Cotton sweatshirt</h3>
+   
+        <h3>$1,299</h3>
+   
+     <span class="brand">Brand: H & M</span>
+    
+        <P>Relaxed fit Crew neck </P>
+        <p>  Drop shoulder sleeves </p>
+        <p> Elasticated neckline, hemline and cuffs </p>
+        <p>  Made in Russia</P>
+        <P  class="Stock">Stock & Availability: 10</P>
+  
+
+    <div class="but">
+        <span>Size</span>
+        <button  class="">XS</button>
+        <button  class="">S</button>
+        <button  class="">M</button>
+        <button  class="">L</button>
+    </div>
+
+        <button class="add cart">Add to Cart</button>
+       <div class="close" >added to cart</div>
+    
+</div>
+        <script>
+                    const payment = document.querySelector(".cart");
+const close = document.querySelector(".close");
+
+payment.addEventListener("click", () => {
+  close.style.display = "flex";
+
+});
+        </script>
+</div>
+</body>
+</html>

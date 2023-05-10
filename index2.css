@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+.user{
+    margin-top: 19px;
+    font-size: 25px;
+
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    }  
+.navbar-h1 {
+    color: #fe8a00;
+    }
+.shop {
+    color: #f61b5a;
+    }    
+.navbar-header{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 10px;
+    }
+.navbar-header-fa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+.Details{
+  display: flex;
+  background-color: rgba(228, 221, 221, 0.025);
+  justify-content: space-evenly; 
+}
+.content{
+  width: 50%;
+}
+.content span.new{
+  width: 10%;
+  background-color: rgba(227, 226, 238, 0.633);
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  
+  }
+  .content span{
+    display: block;
+    }
+    
+.Details img{
+      width:  40%;
+}
+.Details,p{
+
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 8px;
+  }
+.Stock{
+  padding: 30px 0;
+
+}
+.brand{
+  padding: 30px 0;
+  }
+.close{
+    display: none;
+    text-align: center;
+  }
+  .but button{
+    width:6%;
+    padding:6px;
+    background-color: rgba(228, 221, 221, 0.225);
+    border-radius: 3px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    }
+    .but button:nth-of-type(1){
+      background-color: rgb(227, 226, 238);
+    }
+    .add{
+      color: #f61b5a;
+      background-color: #ffffff;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      padding: 5px;
+      width: 50%;
+      border-radius: 18px;
+      border: 1px solid #f6f3f3;
+      font-family: Outfit;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    
+    
+    
+.payment {
+    cursor: pointer;
+}
+@media screen and (max-width:767PX){
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+  .user{
+      margin-top: 19px;
+      font-size: 25px;
+  
+  }
+  .header {
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+      }  
+  .navbar-h1 {
+      color: #fe8a00;
+      }
+  .shop {
+      color: #f61b5a;
+      }    
+  .navbar-header{
+          display: flex;
+          justify-content: space-between;
+          width: 95%;
+          margin: 10px;
+      }
+  .navbar-header-fa{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10px 0;
+  }
+  .Details{
+    display: flex;
+    background-color: rgba(228, 221, 221, 0.025);
+    justify-content: space-evenly; 
+  }
+  .content{
+    width: 50%;
+  }
+  .content span.new{
+    width: 10%;
+    background-color: rgba(227, 226, 238, 0.633);
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    
+    }
+    .content span{
+      display: block;
+      }
+      
+  .Details img{
+        width:  40%;
+  }
+  .Details,p{
+  
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    }
+  .Stock{
+    padding: 30px 0;
+  
+  }
+  .brand{
+    padding: 30px 0;
+    }
+  .close{
+      display: none;
+      text-align: center;
+    }
+    .but button{
+      width:6%;
+      padding:6px;
+      background-color: rgba(228, 221, 221, 0.225);
+      border-radius: 3px;
+      border: none;
+      margin: 10px;
+      cursor: pointer;
+      }
+      .but button:nth-of-type(1){
+        background-color: rgb(227, 226, 238);
+      }
+      .add{
+        color: #f61b5a;
+        background-color: #ffffff;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+        width: 50%;
+        border-radius: 18px;
+        border: 1px solid #f6f3f3;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      
+      
+      
+  .payment {
+      cursor: pointer;
+  }
+}

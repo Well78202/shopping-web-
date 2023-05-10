@@ -1,0 +1,789 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.Products{
+    margin-left: 40%;
+    height: 59px;
+    width: 368px;
+    text-align: center;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    }  
+.navbar-h1 {
+    color: #fe8a00;
+    }
+.shop {
+    color: #f61b5a;
+    }    
+.navbar-header{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 10px;
+    }
+    .navbar-header-fa{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 0;
+    }
+.user{
+        margin-top: 19px;
+        font-size: 25px;
+    
+    }
+.container{
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2PX;
+    object-fit: cover ;
+    background-color: #00000006;
+    ;
+}
+.love {
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    color: grey;
+  }
+  .love i:hover {
+    cursor: pointer;
+  }
+  .hart{
+    display:flex;
+    margin-left: 3%;
+  }
+  .hart img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+.hart .love{
+    position: absolute;
+   
+    right: 77%;
+    font-size: 20px;
+    color: grey;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+.love.active {
+    color: #f61b5a;
+    }
+
+    .love2 {
+        background: transparent;
+        border: none;
+        font-size: 1rem;
+        outline: none;
+        color: grey;
+      }
+      .love2 i:hover {
+        cursor: pointer;
+      }
+      .hart2{
+        display:flex;
+        margin-left: 3%;
+      }
+      .hart2 img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+      }
+    .hart2 .love2{
+        position: absolute;
+       
+        right: 51%;
+        font-size: 20px;
+        color: grey;
+        padding: 12px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+    
+    }
+    .love2.active {
+        color: #f61b5a;
+        }
+.love3 {
+            background: transparent;
+            border: none;
+            font-size: 1rem;
+            outline: none;
+            color: grey;
+          }
+          .love3 i:hover {
+            cursor: pointer;
+          }
+          .hart3{
+            display:flex;
+            margin-left: 3%;
+          }
+          .hart3 img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+        .hart3 .love3{
+            position: absolute;
+           
+            right: 27%;
+            font-size: 20px;
+            color: grey;
+            padding: 12px;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        
+        }
+        .love3.active {
+            color: #f61b5a;
+            }
+            .love4 {
+                background: transparent;
+                border: none;
+                font-size: 1rem;
+                outline: none;
+                color: grey;
+              }
+            .love4 i:hover {
+                cursor: pointer;
+              }
+              .hart4{
+                display:flex;
+                margin-left: 3%;
+              }
+              .hart4 img{
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+              }
+            .hart4 .love4{
+                position: absolute;
+               
+                right: 3%;
+                font-size: 20px;
+                color: grey;
+                padding: 12px;
+                border-radius: 20px;
+                background-color: #FFFFFF;
+                cursor: pointer;
+            
+            }
+            .love4.active {
+                color: #f61b5a;
+                }
+.love5 {
+                    background: transparent;
+                    border: none;
+                    font-size: 1rem;
+                    outline: none;
+                    color: grey;
+                  }
+                .love5 i:hover {
+                    cursor: pointer;
+                  }
+                  .hart5{
+                    display:flex;
+                    margin-left: 3%;
+                  }
+                  .hart5 img{
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                  }
+                .hart5 .love5{
+                    position: absolute;
+                   
+                    right: 27%;
+                    font-size: 20px;
+                    color: grey;
+                    padding: 12px;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                
+                }
+                .love5.active {
+                    color: #f61b5a;
+                    }
+                    .love6 {
+                        background: transparent;
+                        border: none;
+                        font-size: 1rem;
+                        outline: none;
+                        color: grey;
+                      }
+                    .love6 i:hover {
+                        cursor: pointer;
+                      }
+                      .hart6{
+                        display:flex;
+                        margin-left: 3%;
+                      }
+                      .hart6 img{
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                      }
+                    .hart6 .love6{
+                        position: absolute;
+                       
+                        right: 51%;
+                        font-size: 20px;
+                        color: grey;
+                        padding: 12px;
+                        border-radius: 20px;
+                        background-color: #FFFFFF;
+                        cursor: pointer;
+                    
+                    }
+                    .love6.active {
+                        color: #f61b5a;
+                        }
+@media screen and (max-width:767PX){
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.Products{
+    margin-left: 30%;
+    height: 59px;
+    width: 368px;
+    text-align: center;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    }  
+.navbar-h1 {
+    color: #fe8a00;
+    }
+.shop {
+    color: #f61b5a;
+    }    
+.navbar-header{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin: 10px;
+    }
+    .navbar-header-fa{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px 0;
+    }
+.user{
+        margin-top: 19px;
+        font-size: 25px;
+    
+    }
+.container{
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2PX;
+    object-fit: cover ;
+    background-color: #00000006;
+    ;
+}
+
+.love {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: grey;
+}
+.love i:hover {
+  cursor: pointer;
+}
+.hart{
+  display:flex;
+  margin-left: 3%;
+}
+.hart img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.hart .love{
+  position: absolute;
+ 
+  right: 53%;
+  font-size: 20px;
+  color: grey;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+
+}
+.love.active {
+  color: #f61b5a;
+  }
+
+  .love2 {
+      background: transparent;
+      border: none;
+      font-size: 1rem;
+      outline: none;
+      color: grey;
+    }
+    .love2 i:hover {
+      cursor: pointer;
+    }
+    .hart2{
+      display:flex;
+      margin-left: 3%;
+    }
+    .hart2 img{
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  .hart2 .love2{
+      position: absolute;
+     
+      right: 8%;
+      font-size: 20px;
+      color: grey;
+      padding: 12px;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      cursor: pointer;
+  
+  }
+  .love2.active {
+      color: #f61b5a;
+      }
+.love3 {
+          background: transparent;
+          border: none;
+          font-size: 1rem;
+          outline: none;
+          color: grey;
+        }
+        .love3 i:hover {
+          cursor: pointer;
+        }
+        .hart3{
+          display:flex;
+          margin-left: 3%;
+        }
+        .hart3 img{
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+        }
+      .hart3 .love3{
+          position: absolute;
+         
+          right: 53%;
+          font-size: 20px;
+          color: grey;
+          padding: 12px;
+          border-radius: 20px;
+          background-color: #FFFFFF;
+          cursor: pointer;
+      
+      }
+      .love3.active {
+          color: #f61b5a;
+          }
+          .love4 {
+              background: transparent;
+              border: none;
+              font-size: 1rem;
+              outline: none;
+              color: grey;
+            }
+          .love4 i:hover {
+              cursor: pointer;
+            }
+            .hart4{
+              display:flex;
+              margin-left: 3%;
+            }
+            .hart4 img{
+              width: 100%;
+              height: 100%;
+              cursor: pointer;
+            }
+          .hart4 .love4{
+              position: absolute;
+             
+              right: 8%;
+              font-size: 20px;
+              color: grey;
+              padding: 12px;
+              border-radius: 20px;
+              background-color: #FFFFFF;
+              cursor: pointer;
+          
+          }
+          .love4.active {
+              color: #f61b5a;
+              }
+.love5 {
+                  background: transparent;
+                  border: none;
+                  font-size: 1rem;
+                  outline: none;
+                  color: grey;
+                }
+              .love5 i:hover {
+                  cursor: pointer;
+                }
+                .hart5{
+                  display:flex;
+                  margin-left: 3%;
+                }
+                .hart5 img{
+                  width: 100%;
+                  height: 100%;
+                  cursor: pointer;
+                }
+              .hart5 .love5{
+                  position: absolute;
+                 
+                  right: 53%;
+                  font-size: 20px;
+                  color: grey;
+                  padding: 12px;
+                  border-radius: 20px;
+                  background-color: #FFFFFF;
+                  cursor: pointer;
+              
+              }
+              .love5.active {
+                  color: #f61b5a;
+                  }
+                  .love6 {
+                      background: transparent;
+                      border: none;
+                      font-size: 1rem;
+                      outline: none;
+                      color: grey;
+                    }
+                  .love6 i:hover {
+                      cursor: pointer;
+                    }
+                    .hart6{
+                      display:flex;
+                      margin-left: 3%;
+                    }
+                    .hart6 img{
+                      width: 100%;
+                      height: 100%;
+                      cursor: pointer;
+                    }
+                  .hart6 .love6{
+                      position: absolute;
+                     
+                      right: 8%;
+                      font-size: 20px;
+                      color: grey;
+                      padding: 12px;
+                      border-radius: 20px;
+                      background-color: #FFFFFF;
+                      cursor: pointer;
+                  
+                  }
+                  .love6.active {
+                      color: #f61b5a;
+                      }
+
+}
+
+@media screen and (min-width: 768PX) and (max-width:1023PX) {
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+.Products{
+  margin-left: 30%;
+  height: 59px;
+  width: 368px;
+  text-align: center;
+}
+.header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  }  
+.navbar-h1 {
+  color: #fe8a00;
+  }
+.shop {
+  color: #f61b5a;
+  }    
+.navbar-header{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin: 10px;
+  }
+  .navbar-header-fa{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10px 0;
+  }
+.user{
+      margin-top: 19px;
+      font-size: 25px;
+  
+  }
+.container{
+  font-family: 'Outfit', sans-serif;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2PX;
+  object-fit: cover ;
+  background-color: #00000006;
+  ;
+}
+.box{
+  width: 30%;
+}
+.container img{
+    display: flex;
+    width: 100%;
+}
+.love {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  color: grey;
+}
+.love i:hover {
+  cursor: pointer;
+}
+.hart{
+  display:flex;
+  margin-left: 3%;
+}
+.hart img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.hart .love{
+  position: absolute;
+ 
+  right: 68%;
+  font-size: 20px;
+  color: grey;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+
+}
+.love.active {
+  color: #f61b5a;
+  }
+
+  .love2 {
+      background: transparent;
+      border: none;
+      font-size: 1rem;
+      outline: none;
+      color: grey;
+    }
+    .love2 i:hover {
+      cursor: pointer;
+    }
+    .hart2{
+      display:flex;
+      margin-left: 3%;
+    }
+    .hart2 img{
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  .hart2 .love2{
+      position: absolute;
+     
+      right: 37%;
+      font-size: 20px;
+      color: grey;
+      padding: 12px;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      cursor: pointer;
+  
+  }
+  .love2.active {
+      color: #f61b5a;
+      }
+.love3 {
+          background: transparent;
+          border: none;
+          font-size: 1rem;
+          outline: none;
+          color: grey;
+        }
+        .love3 i:hover {
+          cursor: pointer;
+        }
+        .hart3{
+          display:flex;
+          margin-left: 3%;
+        }
+        .hart3 img{
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+        }
+      .hart3 .love3{
+          position: absolute;
+         
+          right: 37%;
+          font-size: 20px;
+          color: grey;
+          padding: 12px;
+          border-radius: 20px;
+          background-color: #FFFFFF;
+          cursor: pointer;
+      
+      }
+      .love3.active {
+          color: #f61b5a;
+          }
+          .love4 {
+              background: transparent;
+              border: none;
+              font-size: 1rem;
+              outline: none;
+              color: grey;
+            }
+          .love4 i:hover {
+              cursor: pointer;
+            }
+            .hart4{
+              display:flex;
+              margin-left: 3%;
+            }
+            .hart4 img{
+              width: 100%;
+              height: 100%;
+              cursor: pointer;
+            }
+          .hart4 .love4{
+              position: absolute;
+             
+              right: 8%;
+              font-size: 20px;
+              color: grey;
+              padding: 12px;
+              border-radius: 20px;
+              background-color: #FFFFFF;
+              cursor: pointer;
+          
+          }
+          .love4.active {
+              color: #f61b5a;
+              }
+.love5 {
+                  background: transparent;
+                  border: none;
+                  font-size: 1rem;
+                  outline: none;
+                  color: grey;
+                }
+              .love5 i:hover {
+                  cursor: pointer;
+                }
+                .hart5{
+                  display:flex;
+                  margin-left: 3%;
+                }
+                .hart5 img{
+                  width: 100%;
+                  height: 100%;
+                  cursor: pointer;
+                }
+              .hart5 .love5{
+                  position: absolute;
+                 
+                  right: 7%;
+                  font-size: 20px;
+                  color: grey;
+                  padding: 12px;
+                  border-radius: 20px;
+                  background-color: #FFFFFF;
+                  cursor: pointer;
+              
+              }
+              .love5.active {
+                  color: #f61b5a;
+                  }
+                  .love6 {
+                      background: transparent;
+                      border: none;
+                      font-size: 1rem;
+                      outline: none;
+                      color: grey;
+                    }
+                  .love6 i:hover {
+                      cursor: pointer;
+                    }
+                    .hart6{
+                      display:flex;
+                      margin-left: 3%;
+                    }
+                    .hart6 img{
+                      width: 100%;
+                      height: 100%;
+                      cursor: pointer;
+                    }
+                  .hart6 .love6{
+                      position: absolute;
+                     
+                      right: 68%;
+                      font-size: 20px;
+                      color: grey;
+                      padding: 12px;
+                      border-radius: 20px;
+                      background-color: #FFFFFF;
+                      cursor: pointer;
+                  
+                  }
+                  .love6.active {
+                      color: #f61b5a;
+                      }
+
+}
